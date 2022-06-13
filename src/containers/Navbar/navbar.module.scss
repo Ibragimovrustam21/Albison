@@ -1,0 +1,133 @@
+$black:#1C1C33;
+
+.wrapper {
+  position: relative;
+  background-color: $black;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    .logo {
+      img {
+        width: 100px;
+      }
+    }
+
+    .menu {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+
+        li {
+          a {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #101010;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 990px) {
+  .navbar {
+    .menu {
+      position: absolute;
+      background-color: $black;
+      height: 100vh;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      transform: translateX(100%);
+      transition: all 0.7s ease;
+      z-index: 10;
+
+      ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        li {
+          margin-bottom: 20px;
+        }
+      }
+
+    }
+
+    .menu_active {
+      transform: translateX(0%);
+      transition: all 0.7s ease;
+    }
+
+    .korzina {
+      display: none;
+    }
+  }
+
+  .hamburger {
+    display: block !important;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .hamburger.hamburger_active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger .hamburger_active .bar:nth-child(2) {
+    opacity: 0 !important;
+  }
+
+  .hamburger.hamburger_active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .navbar {
+    .menu {
+      min-width: 100%;
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .navbar {
+    .menu {
+      min-width: 50%;
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .navbar {
+    .menu {
+      min-width: 30%;
+    }
+  }
+}

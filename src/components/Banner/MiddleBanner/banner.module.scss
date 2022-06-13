@@ -1,0 +1,164 @@
+$white:#F6F6F8;
+$black:#23233B;
+$green:#57D9A6;
+
+.wrapper {
+  background-color: $black;
+  padding-top: 60px;
+
+  .img_box {
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .banner_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+
+    .title {
+      padding: 10px 0;
+
+      p {
+        color: $white;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        margin: 10px 0;
+      }
+    }
+
+    .subtitle {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: $white;
+      margin: 30px 0;
+      width: 90%;
+    }
+
+    .btn {
+      background: $green;
+      border-radius: 4px;
+      padding: 10px 15px;
+      color: $black;
+      cursor: pointer;
+      border: none;
+      width: 120px;
+      text-transform: uppercase;
+    }
+  }
+
+
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .wrapper {
+    background-color: $black;
+    padding-top: 60px;
+
+    .banner_info {
+      padding: 40px 20px;
+
+      .title {
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      .btn {
+        background: $green;
+        border-radius: 4px;
+        padding: 10px 15px;
+        color: $black;
+        cursor: pointer;
+        border: none;
+        width: 120px;
+        text-transform: uppercase;
+      }
+    }
+
+
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .wrapper {
+    .banner_info {
+      padding: 20px;
+
+      .title {
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .wrapper {
+      .banner_info {
+      padding: 20px;
+      
+
+      .title {
+        p {
+          font-size: 34px;
+          line-height: 40px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .wrapper {
+    .banner_info {
+
+      padding: 20px;
+
+      .title {
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        width: 80%;
+      }
+    }
+  }
+}

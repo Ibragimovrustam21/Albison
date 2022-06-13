@@ -1,0 +1,375 @@
+$white:#F6F6F8;
+$black:#23233B;
+$green:#57D9A6;
+
+.wrapper {
+  background-color: $black;
+  padding-top: 60px;
+
+  .img_box {
+    margin-left: 40px;
+
+    .banner_img {
+      width: 550px;
+      // margin-left: 40px;
+      position: relative;
+      z-index: 3;
+    }
+
+    .detail_1,
+    .detail_2,
+    .detail_3,
+    .detail_wave {
+      position: absolute;
+      z-index: 3;
+    }
+
+    .detail_1 {
+      right: 30px;
+      width: 300px;
+      bottom: 0;
+      z-index: 2;
+    }
+
+    .detail_2 {
+      transform: rotate(270deg);
+      top: -40px;
+      left: 0;
+    }
+
+    .detail_3 {
+      transform: rotate(90deg);
+      top: -40px;
+      left: 80px;
+    }
+
+    .detail_wave {
+      bottom: 0;
+      left: 100px;
+      z-index: 2;
+    }
+  }
+
+  .banner_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+
+    .title {
+      padding: 10px 0;
+
+      p {
+        color: $white;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        margin: 10px 0;
+      }
+    }
+
+    .subtitle {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: $white;
+      margin: 30px 0;
+      width: 90%;
+    }
+
+    .btn {
+      background: $green;
+      border-radius: 4px;
+      padding: 15px;
+      color: $black;
+      cursor: pointer;
+      border: none;
+      width: 150px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .wrapper {
+    background-color: $black;
+    padding-top: 60px;
+
+    .img_box {
+      margin-left: 0;
+
+      .banner_img {
+        width: 350px;
+      }
+
+      .detail_1,
+      .detail_2,
+      .detail_3,
+      .detail_wave {
+        position: absolute;
+        z-index: 3;
+      }
+
+      .detail_1 {
+        right: 20px;
+        width: 100px;
+        bottom: 40px;
+        z-index: 2;
+      }
+
+      .detail_2 {
+        transform: rotate(270deg);
+        top: -40px;
+        left: -50px;
+        width: 150px;
+      }
+
+      .detail_3 {
+        transform: rotate(90deg);
+        top: -20px;
+        left: 10px;
+        width: 100px;
+      }
+
+      .detail_wave {
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        width: 250px;
+      }
+    }
+
+    .banner_info {
+      padding: 20px;
+
+      .title {
+        padding: 10px 0;
+
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      .btn {
+        padding: 10px;
+        width: 130px;
+      }
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .wrapper {
+    background-color: $black;
+    padding-top: 60px;
+
+    .img_box {
+      margin-left: 0;
+
+      .banner_img {
+        width: 500px;
+      }
+
+      .detail_1 {
+        right: 80px;
+        width: 150px;
+        bottom: 20px;
+        z-index: 2;
+      }
+
+      .detail_2 {
+        transform: rotate(270deg);
+        top: -30px;
+        left: -40px;
+        width: 150px;
+      }
+
+      .detail_3 {
+        transform: rotate(90deg);
+        top: -10px;
+        left: 20px;
+        width: 100px;
+      }
+
+      .detail_wave {
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        width: 300px;
+      }
+    }
+
+    .banner_info {
+      padding: 20px;
+
+      .title {
+        padding: 10px 0;
+
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      .btn {
+        padding: 10px;
+        width: 130px;
+      }
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .wrapper {
+    background-color: $black;
+    padding-top: 60px;
+
+    .img_box {
+      margin-left: 0;
+
+      .banner_img {
+        width: 400px;
+      }
+
+      .detail_1 {
+        right: 50px;
+        width: 150px;
+        bottom: 20px;
+        z-index: 3;
+      }
+
+      .detail_2 {
+        transform: rotate(270deg);
+        top: -30px;
+        left: -40px;
+        width: 150px;
+      }
+
+      .detail_3 {
+        transform: rotate(90deg);
+        top: -10px;
+        left: 20px;
+        width: 100px;
+      }
+
+      .detail_wave {
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        width: 250px;
+      }
+    }
+
+    .banner_info {
+      padding: 20px;
+
+      .title {
+        padding: 10px 0;
+
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      .btn {
+        padding: 10px;
+        width: 130px;
+      }
+    }
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .wrapper {
+    background-color: $black;
+    padding-top: 60px;
+
+    .img_box {
+      margin-left: 0;
+
+      .banner_img {
+        width: 400px;
+      }
+
+      .detail_1 {
+        right: 100px;
+        width: 150px;
+        bottom: 20px;
+        z-index: 2;
+      }
+
+      .detail_2 {
+        transform: rotate(270deg);
+        top: -30px;
+        left: -40px;
+        width: 150px;
+      }
+
+      .detail_3 {
+        transform: rotate(90deg);
+        top: -10px;
+        left: 20px;
+        width: 100px;
+      }
+
+      .detail_wave {
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        width: 250px;
+      }
+    }
+
+    .banner_info {
+      padding: 20px;
+
+      .title {
+        padding: 10px 0;
+
+        p {
+          font-size: 38px;
+          line-height: 45px;
+          margin: 5px 0;
+        }
+      }
+
+      .subtitle {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      .btn {
+        padding: 10px;
+        width: 130px;
+      }
+    }
+  }
+}

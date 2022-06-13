@@ -1,0 +1,145 @@
+$white:#F6F6F8;
+$green:#57D9A6;
+$black:#1C1C33;
+$darkBlack:#23233B;
+
+.wrapper {
+  padding: 80px 0;
+
+  .title_box {
+    padding: 10px 0;
+    // border-bottom: 2px solid $green;
+
+    h3 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 53px;
+      text-align: center;
+      color: $white;
+      margin-top: 30px;
+    }
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: $white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .btn_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+      border-radius: 4px;
+      padding: 10px 20px;
+      color: $black;
+      background-color: $green;
+      border: 0;
+      cursor: pointer;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+    }
+  }
+
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .wrapper {
+    padding: 40px 0;
+
+    .title_box {
+      // border-bottom: 2px solid $green;
+
+      h3 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-top: 20px;
+      }
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 27px;
+      width: 90%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .wrapper {
+    padding: 40px 0;
+
+    .title_box {
+      // border-bottom: 2px solid $green;
+
+      h3 {
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 20px;
+      }
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 27px;
+      width: 90%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .wrapper {
+    padding: 40px 0;
+
+    .title_box {
+      // border-bottom: 2px solid $green;
+
+      h3 {
+        font-size: 44px;
+        line-height: 45px;
+        margin-top: 30px;
+      }
+    }
+
+    .text {
+      font-size: 20px;
+      line-height: 30px;
+      width: 70%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .wrapper {
+    padding: 60px 0;
+
+    .title_box {
+      // border-bottom: 2px solid $green;
+
+      h3 {
+        font-size: 48px;
+        line-height: 50px;
+      }
+    }
+
+    .text {
+      font-size: 22px;
+      line-height: 30px;
+      width: 60%;
+    }
+  }
+}

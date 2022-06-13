@@ -1,0 +1,147 @@
+$green:#57D9A6;
+$black:#1C1C33;
+$lightBlack:#4E4E65;
+
+.wrapper {
+  width: 350px;
+  margin-bottom: 100px;
+
+  .img_box {
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .info_box {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 200px;
+
+    .data {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 27px;
+      color: $lightBlack;
+    }
+
+    .title {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: $black;
+      margin: 10px 0;
+    }
+
+    .author {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 27px;
+      color: $lightBlack;
+      margin: 5px 0;
+    }
+  }
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .wrapper {
+    width: auto;
+    margin-bottom: 20px;
+
+    .info_box {
+      min-height: 150px;
+
+      .data {
+        font-size: 14px;
+      }
+
+      .title {
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      .author {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .wrapper {
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+    .info_box {
+      min-height: 150px;
+
+      .data {
+        font-size: 14px;
+      }
+
+      .title {
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      .author {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .wrapper {
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+    .info_box {
+      min-height: 150px;
+
+      .data {
+        font-size: 16px;
+      }
+
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      .author {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .wrapper {
+    width: auto;
+    margin-bottom: 80px;
+    margin-right: 10px;
+
+    .info_box {
+      .data {
+        font-size: 16px;
+      }
+
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      .author {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+}
