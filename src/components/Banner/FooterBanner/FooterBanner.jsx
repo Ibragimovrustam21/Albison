@@ -15,11 +15,11 @@ export const FooterBanner = () => {
         <Row >
           <Col xs={24} sm={24} md={14} lg={12} xl={12} span={12}>
             <div className={classes.img_box}>
-              <img className={classes.banner_img} src={bannerImg} alt="" srcset="" />
-              <img className={classes.detail_1} src={detail_1} alt="" srcset="" />
-              <img className={classes.detail_2} src={detail_2} alt="" srcset="" />
-              <img className={classes.detail_3} src={detail_3} alt="" srcset="" />
-              <img className={classes.detail_wave} src={detail_wave} alt="" srcset="" />
+              <img className={classes.banner_img} src={bannerImg} alt="" />
+              <img className={classes.detail_1} src={detail_1} alt="" />
+              <img className={classes.detail_2} src={detail_2} alt="" />
+              <img className={classes.detail_3} src={detail_3} alt="" />
+              <img className={classes.detail_wave} src={detail_wave} alt="" />
             </div>
           </Col>
           <Col xs={24} sm={24} md={10} lg={12} xl={12} span={12} className={classes.banner_info}>

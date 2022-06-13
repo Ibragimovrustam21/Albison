@@ -11,7 +11,7 @@ export const MiddleBanner = () => {
       <Row >
         <Col xs={24} sm={24} md={12} lg={12} xl={12} span={12}>
           <div className={classes.img_box}>
-            <img src={bannerImg} alt="" srcset="" />
+            <img src={bannerImg} alt="" />
           </div>
         </Col>
         <Col xs={24} sm={24} md={12} lg={12} xl={12} span={12} className={classes.banner_info}>
