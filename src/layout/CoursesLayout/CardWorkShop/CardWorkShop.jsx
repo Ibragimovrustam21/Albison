@@ -6,7 +6,7 @@ export const CardWorkShop = ({ title, text }) => {
     <div className={classes.wrapper}>
       <h4 className={classes.title}>{title}</h4>
       <p className={classes.text}>{text}</p>
-      <a href="#">Learn More</a>
+      <a href="/">Learn More</a>
     </div>
   )
 }

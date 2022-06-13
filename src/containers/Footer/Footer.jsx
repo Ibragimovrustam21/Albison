@@ -29,21 +29,21 @@ export const Footer = () => {
             <Col className={classes.menu_group} xs={12} sm={12} md={7} lg={7} xl={6} span={6}>
               <ul>
                 <li>Learning Platform</li>
-                <li><a href=""> Home</a></li>
-                <li><a href=""> Courses</a></li>
-                <li><a href=""> Free Workshops</a></li>
-                <li><a href=""> Blog</a></li>
-                <li><a href=""> About</a></li>
-                <li><a href=""> Contact</a></li>
+                <li><a href="/"> Home</a></li>
+                <li><a href="/"> Courses</a></li>
+                <li><a href="/"> Free Workshops</a></li>
+                <li><a href="/"> Blog</a></li>
+                <li><a href="/"> About</a></li>
+                <li><a href="/"> Contact</a></li>
               </ul>
             </Col>
             <Col className={classes.menu_group} xs={12} sm={12} md={7} lg={7} xl={6} span={6}>
               <ul>
                 <li>Template</li>
-                <li><a href=""> Instructions</a></li>
-                <li><a href=""> Style Guide</a></li>
-                <li><a href=""> Licenses</a></li>
-                <li><a href=""> Changelog</a></li>
+                <li><a href="/"> Instructions</a></li>
+                <li><a href="/"> Style Guide</a></li>
+                <li><a href="/"> Licenses</a></li>
+                <li><a href="/"> Changelog</a></li>
               </ul>
             </Col>
             <Col className={classes.follow_group} xs={24} sm={12} md={10} lg={10} xl={12} span={12}>

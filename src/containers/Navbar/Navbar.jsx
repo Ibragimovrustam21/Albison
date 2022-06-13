@@ -27,17 +27,17 @@ export const Navbar = () => {
       <Layout>
         <div className={classes.navbar}>
           <div className={classes.logo}>
-            <a href="#">
+            <a href="/">
               <img src={logoImg} alt='#' />
             </a>
           </div>
           <div className={menuClass}>
             <ul>
-              <li><a href="#"> Courses</a></li>
-              <li><a href="#"> Free Workshops</a></li>
-              <li><a href="#"> Blog</a></li>
-              <li><a href="#"> About</a></li>
-              <li><a href="#"> Contact</a></li>
+              <li><a href="/"> Courses</a></li>
+              <li><a href="/"> Free Workshops</a></li>
+              <li><a href="/"> Blog</a></li>
+              <li><a href="/"> About</a></li>
+              <li><a href="/"> Contact</a></li>
             </ul>
           </div>
           <div className={classes.korzina}>

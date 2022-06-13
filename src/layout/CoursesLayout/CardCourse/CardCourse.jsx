@@ -11,7 +11,7 @@ export const CardCourse = () => {
         <h4 className={classes.title}>How to Increase Your Engagement on Instagram</h4>
         <p className={classes.name}>Katie Murphy</p>
         <p className={classes.cost}>$ 59.99 USD</p>
-        <a href="#">Learn More</a>
+        <a href="/">Learn More</a>
       </div>
     </div>
   )
